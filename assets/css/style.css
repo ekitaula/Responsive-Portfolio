@@ -19,6 +19,26 @@ body {
   body {
     height: 100%;
   }
+
+  @media (max-width: 980px) {
+    body {
+      background-color: red;
+    }
+  }
+
+  @media (max-width: 768px) {
+    body {
+      color: violet;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+  }
+
+  @media (max-width: 640px) {
+    body {
+      color: blue;
+      font: bolder;
+    }
+  }
   
   .wrapper {
     height: auto !important;
